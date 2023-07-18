@@ -16,6 +16,8 @@
 		3CCE00702A66DC5500853935 /* To_Do_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE006F2A66DC5500853935 /* To_Do_ListUITestsLaunchTests.swift */; };
 		3CCE007D2A66DCB100853935 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE007C2A66DCB100853935 /* ToDoItem.swift */; };
 		3CCE007F2A66E0C500853935 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE007E2A66E0C500853935 /* NewToDoView.swift */; };
+		3CCE00812A6749CC00853935 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00802A6749CC00853935 /* Persistence.swift */; };
+		3CCE00842A674B5200853935 /* To Do List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00822A674B5200853935 /* To Do List.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		3CCE006F2A66DC5500853935 /* To_Do_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3CCE007C2A66DCB100853935 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		3CCE007E2A66E0C500853935 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		3CCE00802A6749CC00853935 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3CCE00832A674B5200853935 /* To Do List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "To Do List.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				3CCE00522A66DC5400853935 /* To_Do_ListApp.swift */,
+				3CCE00802A6749CC00853935 /* Persistence.swift */,
 				3CCE00542A66DC5400853935 /* ContentView.swift */,
 				3CCE007E2A66E0C500853935 /* NewToDoView.swift */,
 				3CCE007C2A66DCB100853935 /* ToDoItem.swift */,
 				3CCE00562A66DC5500853935 /* Assets.xcassets */,
 				3CCE00582A66DC5500853935 /* Preview Content */,
+				3CCE00822A674B5200853935 /* To Do List.xcdatamodeld */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 				3CCE00532A66DC5400853935 /* To_Do_ListApp.swift in Sources */,
 				3CCE007D2A66DCB100853935 /* ToDoItem.swift in Sources */,
 				3CCE007F2A66E0C500853935 /* NewToDoView.swift in Sources */,
+				3CCE00812A6749CC00853935 /* Persistence.swift in Sources */,
+				3CCE00842A674B5200853935 /* To Do List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +593,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CCE00822A674B5200853935 /* To Do List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CCE00832A674B5200853935 /* To Do List.xcdatamodel */,
+			);
+			currentVersion = 3CCE00832A674B5200853935 /* To Do List.xcdatamodel */;
+			path = "To Do List.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3CCE00472A66DC5400853935 /* Project object */;
 }
